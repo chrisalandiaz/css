@@ -10,18 +10,18 @@
 .sr-list > .separator + .sr-bar,
 #sr-more-link
   {
-    display: none !important;
+    display: none;
   }
 
   #sr-header-area
   {
-    height: 0 !important;
+    height: 0;
   }
 
   .sr-bar,
 .dropdown.srdrop
   {
-    float: right !important;
+    float: right;
     margin-left: 1em;
   }
 /* Hide annoying stuff */
@@ -30,75 +30,75 @@
 .embed-comment,
 .nub
   {
-    display: none !important;
+    display: none;
   }
 /* Reset */
   *, *:before, *:after
   {
-    background-color: transparent !important;
-    border: none !important;
-    color: #BCB7B0 !important;
+    background-color: transparent;
+    border: none;
+    color: #BCB7B0;
   }
 /* Default links */
   a
   {
-    color: #48b !important;
+    color: #48b;
   }
 
   a:visited
   {
-    color: #369 !important;
+    color: #369;
   }
 
   a:hover
   {
-    color: #5ad !important;
+    color: #5ad;
   }
 /* Background */
   html,
 body,
 #sr-more-link
   {
-    background-color: #1E2026 !important;
+    background-color: #1E2026;
   }
 /* Top bar */
   #header-img,
 #mail,
 .sidebox.create .spacer a
   {
-    filter: invert(80%) hue-rotate(180deg) !important;
+    filter: invert(80%) hue-rotate(180deg);
   }
 
   .drop-choices,
 .hover-bubble,
 .modal-dialog
   {
-    background: #111 !important;
+    background: #111;
   }
 
   .tabmenu .selected a
   {
-    color: #999 !important;
+    color: #999;
   }
 /* Side bar */
   .listing-chooser-collapsed .grippy
   {
-    width: 1px !important;
+    width: 1px;
   }
 
   .listing-chooser-collapsed .listing-chooser
   {
-    padding-right: 1px !important;
+    padding-right: 1px;
   }
 
   .listing-chooser li.selected
   {
-    box-shadow: none !important;
+    box-shadow: none;
   }
 
   .grippy:after
   {
-    display: none !important;
+    display: none;
   }
 /* Inputs and buttons */
   input,
@@ -110,24 +110,24 @@ textarea,
 .fancy-toggle-button a,
 .usertext button
   {
-    background: #333 !important;
-    color: #999 !important;
-    font-weight: normal !important;
+    background: #333;
+    color: #999;
+    font-weight: normal;
   }
 /* Listing */
   .thing .title
   {
-    color: #aaa !important;
+    color: #aaa;
   }
 
   .title:visited
   {
-    color: #777 !important;
+    color: #777;
   }
 
   .thing .title:hover
   {
-    color: #ccc !important;
+    color: #ccc;
   }
 
   .arrow
@@ -143,57 +143,57 @@ textarea,
 
   .link .score.likes
   {
-    color: #b3684d !important;
+    color: #b3684d;
   }
 
   .link .score.dislikes
   {
-    color: #7070c2 !important;
+    color: #7070c2;
   }
 
   .expando-button
   {
     filter: brightness(45%) contrast(180%);
-    background-color: transparent !important;
+    background-color: transparent;
   }
 
   .moderator,
 .green
   {
-    color: #3a3 !important;
+    color: #3a3;
   }
 
   .admin,
 .nsfw-stamp *
   {
-    color: #a66 !important;
+    color: #a66;
   }
 
   .pagename a,
 .trophy-name
   {
-    color: #999 !important;
+    color: #999;
   }
 
   .buttons li
   {
-    padding: 0 !important;
+    padding: 0;
   }
 
   .buttons a
   {
-    margin-right: 8px !important;
-    color: #888 !important;
+    margin-right: 8px;
+    color: #888;
   }
 
   .buttons a:visited
   {
-    color: #666 !important;
+    color: #666;
   }
 
   .buttons a:hover
   {
-    color: #aaa !important;
+    color: #aaa;
   }
 
   .pagename,
@@ -202,18 +202,18 @@ textarea,
 .buttons a,
 .subreddit
   {
-    font-weight: normal !important;
+    font-weight: normal;
   }
 
   .search-expando.collapsed:before,
 .comment-fade
   {
-    display: none !important;
+    display: none;
   }
 
   .recommended-link
   {
-    border-color: #333 !important;
+    border-color: #333;
   }
 /* Comments */
   .link .usertext .md,
@@ -222,28 +222,28 @@ pre,
 code,
 .gold-accent
   {
-    background-color: #111 !important;
+    background-color: #111;
   }
 
   .md blockquote
   {
-    border-left: solid 4px #333 !important;
+    border-left: solid 4px #333;
   }
 
   .md td
   {
-    border: solid 1px #333 !important;
+    border: solid 1px #333;
   }
 
   hr
   {
-    border-bottom: solid 1px #333 !important;
+    border-bottom: solid 1px #333;
   }
 
   .comment .author,
 .morecomments a
   {
-    font-weight: normal !important;
+    font-weight: normal;
   }
 /* RES */
   .guider,
@@ -252,7 +252,7 @@ code,
 #RESConsoleContainer,
 #RESShortcutsAddFormContainer
   {
-    background: #222 !important;
+    background: #222;
   }
 
   .RESDialogSmall,
@@ -260,18 +260,18 @@ code,
 .RESNotification,
 #alert_message
   {
-    background: #111 !important;
+    background: #111;
   }
 
   .RES-keyNav-activeElement,
 .RES-keyNav-activeElement .md-container
   {
-    background: #333 !important;
+    background: #333;
   }
 
   .res-nightmode .arrow
   {
-    filter: none !important;
+    filter: none;
   }
 /* new.reddit.com */
   #header,
@@ -285,7 +285,7 @@ body > div,
 div[style^="left:"]
 div[role="button"]
   {
-    background-color: #222 !important;
+    background-color: #191A1F;
   }
 
   #header svg
@@ -295,40 +295,40 @@ div[role="button"]
 
   div[contenteditable="true"]
   {
-    background: #333 !important;
+    background: #333;
   }
 
   #overlayFixedContent + div
   {
-    background: rgba(0, 0, 0, 0.7) !important;
+    background: rgba(0, 0, 0, 0.7);
   }
 
   div[data-slot]
   {
-    display: none !important;
+    display: none;
   }
 
   .icon, .icon:before
   {
-    color: inherit !important;
+    color: inherit;
   }
 
   a[data-click-id="timestamp"]
   {
-    color: #777 !important;
+    color: #777;
   }
 
   a[data-click-id="body"] h2
   {
-    color: #aaa !important;
+    color: #aaa;
   }
 
   a[data-click-id="body"]:visited h2
   {
-    color: #777 !important;
+    color: #777;
   }
 
   .scrollerItem
   {
-    box-shadow: none !important;
+    box-shadow: none;
   }
